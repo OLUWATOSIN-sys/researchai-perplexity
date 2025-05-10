@@ -1,7 +1,8 @@
-"use client"; // This is a Client Component
+"use client"; 
 
 import { useState, useRef, useEffect } from 'react';
 import Head from 'next/head';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function ResearchAIPage() {
   const [messages, setMessages] = useState([
@@ -200,7 +201,6 @@ export default function ResearchAIPage() {
     <>
       <Head>
         <title>Perplexity Research AI</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Head>
 
       <div className="container">
